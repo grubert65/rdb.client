@@ -4,7 +4,7 @@ A base class for any DBMS client driver
 
 # Synopsys
 
-    use rdb.client
+    import rdb.client
 
     # get a client object
     client = rdb.client.get_client(driver = "<an rdb.client driver>")
